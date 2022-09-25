@@ -18,8 +18,7 @@ app.use(cors());
 const PORT = process.env.PORT || 5000;
 
 // to connect mongoDB 
-// username : SchoolSystem password : tushar
-const CONNECTION_URL = "mongodb+srv://SchoolSystem:tushar@cluster0.pimt7ps.mongodb.net/?retryWrites=true&w=majority";
+const CONNECTION_URL = "<mongodb-url>";
 mongoose.connect(CONNECTION_URL,{
     useNewUrlParser : true,
     useUnifiedTopology : true
